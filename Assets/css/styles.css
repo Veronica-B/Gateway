@@ -1,0 +1,320 @@
+/*Navigation*/
+.ul{
+  position:relative;
+  display:flex;
+  text-decoration: none;
+  list-style:none;
+/* No bullet points  */
+  height:100%;
+  width:102.1%;
+/* It's to put the nav bar in the middle.   */
+  background-color:#711712;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index:6;
+  margin-top:-11px;
+  margin-left:-1%;
+}
+
+.navwords{
+  font-size: 150%;
+  text-decoration:none;
+  color:#ede8f9;
+  margin:0 150px 0 115px
+}
+
+.navwords:hover{
+  color:#eeeec3;
+}
+
+/*Footer*/
+/*H= home page*/
+.footer{
+  background-color:#ede8f9;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index:6;
+  height:20%;
+  width:104.59%;
+  border:3px solid #314779;
+  margin-left:-1%;
+}
+.twittericon{
+  display:inline-flex;
+/*inline will make it so that other elements can be on the same line, and flex to float it there. The margin is different from the other icons, so that it will be in the middle. The rest of the icons should use .generalicon  */
+  position:relative;
+  height:30px;
+  width:30px;
+  margin:1% 3% 1% 40%;
+  z-index:10;
+}
+
+.generalicon{
+  display:inline-flex;
+  position:relative;
+  height:30px;
+  width:30px;
+  margin:1% 3% 1% 0;
+  z-index:10;
+}
+.copyright{
+  color: #314779;
+  position:relative;
+  margin-bottom:2%;
+  margin-left:2%;
+}
+/*^^This is for the copyright text*/
+
+/*Body*/
+#homebody{
+  height:500px;
+  width:96.7%;
+    background-size:103.55% 700px;
+  background-image:url(https://images.costarica.org/wp-content/uploads/2018/11/National-Museum-Costa-Rica.jpg);
+   background-repeat: no-repeat;
+  z-index: 1;
+  margin-left:-.55%;
+/* Background picture of home page, z1 to make it appear in the bottom.  */
+}
+
+#contactbody{
+  height:500px;
+    width:96.7%;
+    background-size:103.55% 700px;
+  background-image:url(https://www.kilroy.net/media/18841/selina-hostel-san-jose-costa-rica-square.jpg);
+   background-repeat: no-repeat;
+  z-index: 1;
+  margin-left:-.55%;
+}
+
+#actbody{
+  height:500px;
+    width:96.7%;
+    background-size:103.55% 700px;
+  background-image:url(https://i1.wp.com/noticiassanjose.com/wp-content/uploads/2019/11/Convenio-ICODER-MSJ-Parque-La-Sabana-28102019005-e1572631349101.jpg?fit=1200%2C675&ssl=1);
+   background-repeat: no-repeat;
+  z-index: 1;
+}
+
+#itbody{
+  background-size:103.55% 700px;
+  height:500px;
+    width:96.7%;
+  background-image:url(https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F461940%2Fgettyimages-143071442.jpg&w=700&op=resize);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/*Boxes  */
+.bluebox{
+/*The transparent one*/
+  margin: 20% 100px 0px 20%;
+  position:relative;
+  width: 1000px;
+  Height:175px;
+  background-color:#314779;
+  opacity:.8;
+  z-index:3;
+}
+
+/*For home  */
+#redboxh{
+  position:relative;
+  background-color: #711712;
+ height:400px;
+  width: 105%;
+  margin-left: -1%;
+  margin-top: 182px;
+  z-index:7;
+}
+
+.redboxnotopmargin{
+  position:relative;
+  background-color: #711712;
+ height:500px;
+  width: 105%;
+  margin-left: -1%;
+  margin-top: 0px;
+  z-index:7;
+}
+/* ^^^^For IT & Activity pages  */
+
+.blueboxait{
+  position:relative;
+  background-color: #314779;
+ height:500px;
+  width: 105%;
+  margin-left: -1%;
+  margin-top: 0px;
+  z-index:7;
+}
+.redboxait{
+  position:relative;
+  background-color: #711712;
+ height:500px;
+  width: 105%;
+  margin-left: -1%;
+  margin-top: 200px;
+  z-index:7;
+}
+
+#redboxcontact{
+  position:relative;
+  background-color: #711712;
+ height:1000px;
+  width: 105%;
+  margin-left: -1%;
+  margin-top: 200px;
+  z-index:7;
+}
+
+.whitebox{
+ position:absolute;
+  margin: 20px 0px 0 25px;
+  height:350px;
+  width:350px;
+  background-color:#ede8f9;
+  z-index: 8;
+}
+
+.rwhitebox{
+ position:absolute;
+  margin: 20px 0px 0 73.5%;
+  height:350px;
+  width:350px;
+  background-color:#ede8f9;
+  z-index: 8;
+}
+
+/*Text & Content  */
+
+.h1font{
+  
+  margin-top:0;
+  position:relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  line-height:1.8;
+  font-size: 100px;
+  color:#ede8f9;
+  text-shadow: 0px 3px black;
+/*It makes the white text stand out more, and not look weird    */
+  z-index:4;
+  
+}
+
+.homep{
+  margin: 5% 50px 0px 400px;
+  position:absolute;
+  color:#ede8f9;
+  font-size:20px;
+  line-height:1.5;
+}
+
+.details{
+  margin: -70px 50px 0% 400px;
+  position:absolute;
+  color:#ede8f9;
+  font-size:20px;
+  line-height:1.5;
+  z-index:10;
+}
+
+.rdetails{
+  margin: -70px 400px 0% 50px;
+  position:absolute;
+  color:#ede8f9;
+  font-size:20px;
+  line-height:1.5;
+  z-index:10;
+}
+
+.pic{
+  position:absolute;
+  background-size:cover;
+  margin: 50px 0px 0 50px;
+    height:300px;
+  width:300px;
+  z-index: 9;
+}
+
+.rpic{
+  position:absolute;
+  background-size:cover;
+  margin: 50px 0px 0 75%;
+    height:300px;
+  width:300px;
+  z-index: 9;
+}
+
+.h2text{
+  margin: 0% 30% 4% 30%;
+  color:#ede8f9;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 3px black;
+  position: relative;
+}
+
+.labelc{
+  position:relative;
+  color:#ede8f9;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 1px black;
+  margin: 10%  30% 0px 30%;
+}
+
+.notuglytextboxes{
+  background-color: #711712;
+  width: 30%;
+  padding: 6px 6px;
+  margin: 5% 30% 5% 30%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ede8f9 ;
+  position:relative;
+  color: #ede8f9;
+}
+
+#textareac{
+  margin: 3% 0% 3% 30%;
+  width: 30%;
+  height: 100px;
+  padding: 12px 20px;
+  border: 2px solid #314779;
+  background-color: #ede8f9;
+  font-size: 16px;
+  resize:none;
+  position:relative;
+}
+
+.rhomep{
+  margin: 5% 400px 0px 50px;
+  position:absolute;
+  color:#ede8f9;
+  font-size:20px;
+  line-height:1.5;
+}
+
+.linktext{
+  color:#eeeec3;
+  text-decoration:underline;
+   margin: 20% 30% 4% 28%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+
+#rlinktext{
+  color:#eeeec3;
+  text-decoration:underline;
+   margin: 20% 35% 4% 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+
+#button{
+  color:#ede8f9;
+  padding:5px 50px 5px 50px;
+  border:2px solid #ede8f9;
+  background-color:#711712;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0% 0% 4% 40%;
+  position: relative;
+}
