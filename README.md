@@ -9,6 +9,10 @@ This was the first website that I have ever created using just HTML and CSS.
 
 First clone the repo, and once you have the code up, you can open it up with a live server in order to see the pages.
 
+## Author
+
+Veronica Barcia
+
 ## License
 
 This project is licensed under the MIT License - see License.md for details
